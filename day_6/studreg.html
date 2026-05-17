@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action="studentwel.html">
+      <label for="studname">Student Name</label><br />
+      <input
+        id="studname"
+        type="text"
+        placeholder="Enter your name"
+        tabindex="1"
+      />
+      <br />
+      <br />
+
+      <label for="pwd">Password</label><br />
+      <input
+        id="pwd"
+        type="password"
+        placeholder="Enter password"
+        tabindex="2"
+        minlength="3"
+        required
+      />
+      <br /><br />
+
+      <label>Email </label><br />
+      <input type="email" placeholder="Enter email" required tabindex="3" />
+      <br /><br />
+      <label>Gender</label><br />
+      <input name="gender" type="radio" required />
+      <label>Male</label>
+      <input name="gender" type="radio" required />
+      <label>Female</label><br />
+      <br />
+
+      <label>Age</label><br />
+      <input type="number" min="4" max="17" /><br /><br />
+      <label>Mobile</label><br />
+      <input typle="tel" pattern="[0-9]{10}" maxlength="10" required />
+      <br/>
+      <br />
+      <!-- patern="[0-9]{8} " -->
+      <input type="submit" />
+    </form>
+
+
+  </body>
+</html>
